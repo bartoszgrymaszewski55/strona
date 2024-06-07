@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Małpy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+        main {
+            padding: 1rem;
+        }
+        .monkey {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #fff;
+        }
+        .monkey img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Małpy Świata</h1>
+    </header>
+    <main>
+        <div class="monkey">
+            <h2>Orangutany</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pongo_abelii_%28male%29_-_Borneo_2007_%28cropped%29.jpg" alt="Orangutan">
+            <p>Orangutany są jednymi z największych małp na świecie. Zamieszkują gęste lasy tropikalne Borneo i Sumatry.</p>
+        </div>
+        <div class="monkey">
+            <h2>Goryle</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Gorilla_gorilla_%28Linnaeus%2C_1758%29.jpg" alt="Gorilla">
+            <p>Goryle są największymi przedstawicielami małp człekokształtnych. Zamieszkują lasy tropikalne Afryki Środkowej i Zachodniej.</p>
+        </div>
+        <div class="monkey">
+            <h2>Szympansy</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Pan_troglodytes_%28male%29_-_Jurong_Bird_Park_-_DSC03974.JPG" alt="Chimpanzee">
+            <p>Szympansy to inteligentne małpy, które zamieszkują lasy deszczowe Afryki Zachodniej i Środkowej.</p>
+        </div>
+        <div class="monkey">
+            <h2>Małpy Kapucynki</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Capuchin_moneky_as_pet_in_Ecuador.JPG/800px-Capuchin_moneky_as_pet_in_Ecuador.JPG" alt="Capuchin Monkey">
+            <p>Małpy kapucynki są niewielkimi małpami z rodziny kapucynkowatych. Zamieszkują lasy Ameryki Południowej i Centralnej.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Strona o Małpach - Wszelkie prawa zastrzeżone</p>
+    </footer>
+</body>
+</html>
